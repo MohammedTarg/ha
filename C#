@@ -1,0 +1,297 @@
+
+
+
+
+
+/*
+Random random = new Random();
+
+bool play = true;
+bool play1 = true;
+int tries = 0;
+
+while (play == true)
+{
+    int number = random.Next(0, 100) + 1;
+
+    while (play1)
+    {
+        Console.WriteLine("\t\t\t\t\tEnter number from 1_100\n");
+        int num = Convert.ToInt32(Console.ReadLine());
+
+        if (num > number)
+        {
+            tries++;
+            Console.WriteLine("\t\t\t\t\tTo \"High\" \n" +
+                "\t\t\t\t\tEnter number less than :" + num);
+        }
+        else if (num < number)
+        {
+            tries++;
+            Console.WriteLine("\t\t\t\t\tTo \"Loow\" Enter higher than :" + num);
+        }
+        else
+        {
+            tries++;
+            Console.WriteLine("\t\t\t\t\tCorrect anser is " + num);
+            Console.WriteLine("\t\t\t\t\ttries :" + tries);
+
+            Console.WriteLine("\t\t\t\t\tPlay agine (Y/N)");
+            String x = Console.ReadLine().ToUpper();
+            if (x == "Y")
+            {
+                play1 = true;
+            }
+            else if (x == "N")
+            {
+                play1 = false;
+                break;
+            }
+            else
+            {
+                Console.WriteLine("\t\t\t\t\tError");
+                break;
+            }
+        }
+
+    }
+
+    break;
+}
+*/
+
+/*for(int i = 0; i <= 10; i++) { 
+    for(int j = 0; j <= i; j++) {
+        Console.Write("*");
+    }    
+    Console.WriteLine("");    
+}
+
+for(int i = 10;i>0;i--) { 
+    for(int j = 0;j<i;j++) {
+        Console.Write("*");
+    }
+    Console.WriteLine("");
+}*/
+
+/*for(int i = 0; i <= 100; i++)
+{
+    if (Math.Sqrt(i)%2== 0)
+    {
+        Console.WriteLine(i+"-->"+Math.Sqrt(i));
+    }
+}*/
+
+/*Console.WriteLine("Enter Name :");
+String name= Console.ReadLine();
+if (name == "Hamada155")
+{
+    Console.WriteLine("Enter Password");
+    String password= Console.ReadLine();
+    if (password == "Moh@2672004")
+    {
+        Console.WriteLine("Welcome");
+    }
+    else
+    {
+        Console.WriteLine("Error");
+    }
+}
+else
+{
+    Console.WriteLine("Error");
+}*/
+
+
+/*for(int i = 10; i >= 0; i--)
+{
+    for(int j = 0; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine("");
+}*/
+
+
+/*for(int i = 0; i < 10; i++)
+{
+    for (int j = 0;j <= i; j++)
+    {
+        Console.Write("*"); 
+    }
+    Console.WriteLine("");
+}*/
+
+/*for(int i = 0; i <= 100; i++)
+{
+    if (i % 2 == 1)
+    {
+        Console.WriteLine(i);
+    }
+}*/
+
+/*int x=Convert.ToInt32(Console.ReadLine());
+int sum = 0;
+for (int i = 0; i <= xx; i++)
+{
+    sum += i;
+}
+Console.WriteLine(sum);*/
+
+
+
+/*int sum = 0;
+for(int i = 0; i <= 10; i++){
+    sum += i;
+}
+Console.WriteLine(sum);*/
+
+/*String fullName = "Mohammed Tareq";
+
+Console.WriteLine(fullName.Substring(0, 9));*/
+
+
+
+/*String fullName = "Mohammed Tareq";
+Console.WriteLine(fullName.Insert(0,"Ypur name is :"));
+*/
+/*String phoneNumber = "059-711-335-3";
+ Console.WriteLine(phoneNumber.Replace("-", "."));
+Console.WriteLine(phoneNumber.Replace("-", ""));
+*/
+
+/*String name = "Mohammed";
+String lastName = "TAREQ";
+String firstName = name + lastName;
+
+Console.WriteLine(name.ToUpper());
+Console.WriteLine(lastName.ToLower());
+Console.WriteLine(name.Length);
+Console.WriteLine(firstName.ToUpper()); */
+
+/*Console.WriteLine("Enter A site");
+double a = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Enter B site");
+double b = Convert.ToDouble(Console.ReadLine());
+
+
+double c = Math.Sqrt( Math.Pow(a, 2)+Math.Pow(b, 2));   
+
+Console.WriteLine("The water ="+c);*/
+
+
+
+/*Random random = new Random();   
+
+
+for(int i=0; i<10; i++)
+{
+int n1=random.Next(0, 10)+1;
+Console.WriteLine(n1);
+}
+
+*/
+
+/*double x = 5.9;
+double y = -5;
+
+//double a =Math.Pow(x, 2);
+//double b=Math.Sqrt(x);
+//double c=Math.Abs(y);
+//double d=Math.Round(x);
+//double e=Math.Ceiling(x);
+//double f = Math.Floor(x);
+//double g=Math.Max(x,y); 
+//double h=Math.Min(x,y); 
+
+
+
+Console.WriteLine(h);   */
+
+
+/*int i = 1;//6
+int sum = 0;//1
+
+Console.WriteLine("Input number of terms :");
+int n=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("The odd number is :");
+
+while ( i <= n){//i=5 n=5
+
+    Console.WriteLine(2*i-1);//9
+
+    sum += 2 * i - 1;
+    i++;
+    
+
+}
+
+
+Console.WriteLine("Sum is :" + sum + "\n" +
+       "number Is :" + n);
+*/
+
+/*Console.WriteLine("Enter your age :");
+int age = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter your tall");
+double tall=Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Your age is :"+age);
+Console.WriteLine("Your tall iS :"+tall);
+*/
+
+
+/*Console.WriteLine("Enter your name :");
+String name=Console.ReadLine();
+    
+
+Console.WriteLine("Enter your age :"); 
+int age=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter your linth :");
+double tall=Convert.ToDouble(Console.ReadLine());   
+
+
+Console.WriteLine("Yur age is :"+age);
+Console.WriteLine("Your name is :"+name);
+Console.WriteLine("Your tall is :"+tall);*/
+
+
+/*double c = 12.94;
+int x=Convert.ToInt32(c);
+Console.WriteLine(x.GetType());
+Console.WriteLine(x);
+
+double y = Convert.ToDouble(c);
+Console.WriteLine(y.GetType());
+Console.WriteLine(y);
+
+long l = Convert.ToInt64(c);
+Console.WriteLine(l.GetType()); 
+Console.WriteLine(l);
+
+String s= Convert.ToString(c);
+Console.WriteLine(s.GetType()); 
+Console.WriteLine(s);
+
+String t = "true";
+bool b = Convert.ToBoolean(t);
+Console.WriteLine(b.GetType());
+Console.WriteLine(b);
+*/
+/*const double PI = Math.PI;
+Console.WriteLine(PI);*/
+
+/*char c = 'M';
+String name = "Hmada";
+int age = 18;
+double tall = 180.5;
+bool b= true;
+
+Console.WriteLine("His later Is" + c + "\nName:" + name + "Age: " + age + "\n" + b);
+Console.WriteLine("His tall Is :" + tall);
+*/
+
+Console.ReadKey();
